@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tacoma Family Eyecare </title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://unpkg.com/lucide@latest"></script>
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="container">
+            <div class="header-content">
+                <a href="index.html" class="logo">
+                    <img src="logo.png" alt="Tacoma Family Eyecare Logo" class="logo-image">
+                </a>
+                
+                <!-- Desktop Navigation -->
+                <nav class="nav-desktop">
+                    <a href="index.html" class="nav-btn active">Home</a>
+                    <a href="team.html" class="nav-btn">Our Team</a>
+                    <a href="services.html" class="nav-btn">Services</a>
+                    <a href="insurance.html" class="nav-btn">Insurance</a>
+                    <a href="library.html" class="nav-btn">Eye Library</a>
+                    <a href="location.html" class="nav-btn">Location</a>
+                    <a href="hipaa.html" class="nav-btn">HIPAA</a>
+                </nav>
+
+                <a href="https://app.eyecloudpro.com/site/!appt_req?sid=132BEE91E879F8642B87DB218A0C1D0ACF10607C7658161B7D7EE18BBBB81291" target="_blank" class="btn-primary desktop-only">Book Appointment</a>
+
+                <!-- Mobile Menu Button -->
+                <button class="mobile-menu-btn" onclick="toggleMobileMenu()">
+                    <i data-lucide="menu" class="menu-icon"></i>
+                    <i data-lucide="x" class="close-icon" style="display: none;"></i>
+                </button>
+            </div>
+
+            <!-- Mobile Navigation -->
+            <nav class="nav-mobile" id="mobileNav">
+                <a href="index.html" class="nav-btn-mobile active">Home</a>
+                <a href="team.html" class="nav-btn-mobile">Our Team</a>
+                <a href="services.html" class="nav-btn-mobile">Services</a>
+                <a href="insurance.html" class="nav-btn-mobile">Insurance</a>
+                <a href="library.html" class="nav-btn-mobile">Eye Library</a>
+                <a href="location.html" class="nav-btn-mobile">Location</a>
+                <a href="hipaa.html" class="nav-btn-mobile">HIPAA</a>
+                <a href="https://app.eyecloudpro.com/site/!appt_req?sid=132BEE91E879F8642B87DB218A0C1D0ACF10607C7658161B7D7EE18BBBB81291" target="_blank" class="btn-primary desktop-only">Book Appointment</a>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main class="main-content">
+        <div class="container">
+            <section class="hero hero-with-image">
+                <div class="hero-overlay"></div>
+                <div class="hero-content">
+                    <h1>Comprehensive Eye Care for Your Entire Family</h1>
+                    <p>Experience professional vision care with advanced technology and personalized attention. Serving the Tacoma community with excellence since 1999.</p>
+                    <div class="hero-buttons">
+                        <a href="https://app.eyecloudpro.com/site/!appt_req?sid=132BEE91E879F8642B87DB218A0C1D0ACF10607C7658161B7D7EE18BBBB81291" target="_blank" class="btn-primary-large">Schedule Your Appointment</a>
+                        <a href="https://form.jotform.com/203656785536063" target="_blank" class="btn-secondary-large">New Patient? Start Here</a>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Trust Indicators -->
+            <section class="trust-indicators">
+                <div class="trust-card">
+                    <div class="trust-icon">
+                        <i data-lucide="award"></i>
+                    </div>
+                    <h3>Experienced Since 1999</h3>
+                    <p>Over 25 years of professional optometric care</p>
+                </div>
+                <div class="trust-card">
+                    <div class="trust-icon">
+                        <i data-lucide="users"></i>
+                    </div>
+                    <h3>Care for All Ages</h3>
+                    <p>Comprehensive services for children (6+) through seniors</p>
+                </div>
+                <div class="trust-card">
+                    <div class="trust-icon">
+                        <i data-lucide="scan"></i>
+                    </div>
+                    <h3>Optomap Technology</h3>
+                    <p>Advanced retinal imaging for superior diagnostics</p>
+                </div>
+            </section>
+
+            <!-- Welcome Section -->
+            <section class="welcome-section">
+                <div class="welcome-content">
+                    <h2>Welcome to Tacoma Family Eyecare</h2>
+                    <p class="welcome-intro">Your trusted partner in maintaining optimal vision and eye health for your entire family.</p>
+                    
+                    <div class="welcome-text">
+                        <p>At Tacoma Family Eyecare, we combine clinical excellence with compassionate care. Our experienced team of optometrists and support staff are dedicated to providing comprehensive eye care services using the latest diagnostic technology and evidence-based treatments.</p>
+                        
+                        <p>Conveniently located inside Costco Tacoma, we make it easy to prioritize your family's vision health. Whether you need a routine eye exam, contact lens fitting, or management of eye disease, we're here to help you see your best.</p>
+                    </div>
+
+                    <div class="welcome-cta">
+                        <a href="team.html" class="link-btn-large">
+                            Meet Our Professional Team <i data-lucide="arrow-right"></i>
+                        </a>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Services Overview -->
+            <section class="services-section">
+                <div class="section-header">
+                    <h2>Complete Eye Care Services</h2>
+                    <p>From comprehensive examinations to specialized treatments, we provide full-spectrum vision care for your entire family</p>
+                </div>
+                <div class="services-grid">
+                    <div class="service-card">
+                        <i data-lucide="eye"></i>
+                        <h3>Comprehensive Eye Exams</h3>
+                        <p>Complete evaluation including eye alignment, pupil testing, visual fields, and screening for cataracts, glaucoma, and macular degeneration.</p>
+                    </div>
+                    <div class="service-card">
+                        <i data-lucide="contact"></i>
+                        <h3>Contact Lens Fittings</h3>
+                        <p>Professional contact lens fittings and consultations for comfortable, healthy lens wear.</p>
+                    </div>
+                    <div class="service-card">
+                        <i data-lucide="baby"></i>
+                        <h3>Pediatric Eye Care</h3>
+                        <p>Specialized vision care for children as young as 6 years old to ensure proper visual development and academic success.</p>
+                    </div>
+                    <div class="service-card">
+                        <i data-lucide="scan"></i>
+                        <h3>Retinal Photography</h3>
+                        <p>Advanced Optomap retinal imaging for superior diagnostics and documentation of your eye health.</p>
+                    </div>
+                    <div class="service-card">
+                        <i data-lucide="droplet"></i>
+                        <h3>Dry Eye Analysis</h3>
+                        <p>Comprehensive evaluation and treatment options for dry eye symptoms and discomfort.</p>
+                    </div>
+                    <div class="service-card">
+                        <i data-lucide="activity"></i>
+                        <h3>Surgery Co-Management</h3>
+                        <p>Expert co-management for refractive and cataract surgery patients, ensuring optimal outcomes.</p>
+                    </div>
+                </div>
+                <div class="section-footer">
+                    <a href="services.html" class="link-btn">
+                        Explore All Our Services <i data-lucide="chevron-right"></i>
+                    </a>
+                </div>
+            </section>
+
+            <!-- Quick Links Section -->
+            <section class="quick-links-section">
+                <div class="quick-links-grid">
+                    <a href="team.html" class="quick-link-card">
+                        <div class="quick-link-icon">
+                            <i data-lucide="users"></i>
+                        </div>
+                        <h3>Meet Our Team</h3>
+                        <p>Dr. Thanh Pham and our experienced optometrists and professional staff</p>
+                        <span class="quick-link-arrow">Learn More →</span>
+                    </a>
+
+                    <a href="services.html" class="quick-link-card">
+                        <div class="quick-link-icon">
+                            <i data-lucide="eye"></i>
+                        </div>
+                        <h3>Adult & Pediatric Care</h3>
+                        <p>Comprehensive eye exams, contact lens fittings, and disease management for all ages</p>
+                        <span class="quick-link-arrow">View Services →</span>
+                    </a>
+
+                    <a href="insurance.html" class="quick-link-card">
+                        <div class="quick-link-icon">
+                            <i data-lucide="shield-check"></i>
+                        </div>
+                        <h3>Insurance Accepted</h3>
+                        <p>We work with most major insurance providers including VSP, EyeMed, and Medicare</p>
+                        <span class="quick-link-arrow">View Insurance Info →</span>
+                    </a>
+
+                    <a href="location.html" class="quick-link-card">
+                        <div class="quick-link-icon">
+                            <i data-lucide="map-pin"></i>
+                        </div>
+                        <h3>Visit Our Office</h3>
+                        <p>Conveniently located inside Tacoma Costco at 2219 South 37th Street</p>
+                        <span class="quick-link-arrow">Get Directions →</span>
+                    </a>
+                </div>
+            </section>
+
+            <!-- Why Choose Us -->
+            <section class="why-choose">
+                <div class="why-choose-content">
+                    <h2>Why Patients Choose Tacoma Family Eyecare</h2>
+                    <div class="why-list">
+                        <div class="why-item">
+                            <div class="why-number">1</div>
+                            <div class="why-text">
+                                <h3>Experienced, Board-Certified Doctors</h3>
+                                <p>Dr. Thanh Pham has been practicing optometry since 1999 with advanced training from top institutions including Bascom Palmer Eye Institute and UC Berkeley School of Optometry.</p>
+                            </div>
+                        </div>
+                        <div class="why-item">
+                            <div class="why-number">2</div>
+                            <div class="why-text">
+                                <h3>State-of-the-Art Technology</h3>
+                                <p>We invest in the latest diagnostic equipment including Optomap retinal imaging and advanced refraction systems to provide superior eye care.</p>
+                            </div>
+                        </div>
+                        <div class="why-item">
+                            <div class="why-number">3</div>
+                            <div class="why-text">
+                                <h3>Comprehensive Family Care</h3>
+                                <p>From pediatric exams for children as young as 6 years old to senior care and disease management, we serve patients at every stage of life.</p>
+                            </div>
+                        </div>
+                        <div class="why-item">
+                            <div class="why-number">4</div>
+                            <div class="why-text">
+                                <h3>Convenient Costco Location</h3>
+                                <p>Easy access inside Tacoma Costco with flexible scheduling to fit your busy lifestyle. Professional care without the hassle.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- CTA Section -->
+            <section class="home-cta-section">
+                <div class="cta-box">
+                    <h2>Ready to Schedule Your Eye Exam?</h2>
+                    <p>Take the first step toward better vision and eye health. Our friendly team is ready to assist you.</p>
+                    <div class="cta-buttons">
+                        <a href="https://app.eyecloudpro.com/site/!appt_req?sid=132BEE91E879F8642B87DB218A0C1D0ACF10607C7658161B7D7EE18BBBB81291" target="_blank" class="btn-primary">Book Appointment</a>
+                        <a href="https://form.jotform.com/203656785536063" target="_blank" class="btn-secondary">New Patient Form</a>
+                    </div>
+                    <div class="cta-contact-info">
+                        <div class="cta-contact-item">
+                            <i data-lucide="phone"></i>
+                            <a href="tel:2536716012">(253) 671-6012</a>
+                        </div>
+                        <div class="cta-contact-item">
+                            <i data-lucide="mail"></i>
+                            <a href="mailto:tacomafamilyeyecare@gmail.com">tacomafamilyeyecare@gmail.com</a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-about">
+                    <div class="footer-logo">
+                        <img src="logo.png" alt="Tacoma Family Eyecare Logo" style="height: 40px; width: auto;">
+                    </div>
+                    <p>Providing comprehensive, professional eye care services for the Tacoma community and surrounding areas. Your vision is our priority.</p>
+                    <a href="https://app.eyecloudpro.com/site/!appt_req?sid=132BEE91E879F8642B87DB218A0C1D0ACF10607C7658161B7D7EE18BBBB81291" target="_blank" class="btn-secondary">Schedule Appointment</a>
+                </div>
+                
+                <div class="footer-links">
+                    <h3>Quick Links</h3>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="team.html">Our Team</a></li>
+                        <li><a href="services.html">Services</a></li>
+                        <li><a href="insurance.html">Insurance</a></li>
+                        <li><a href="library.html">Eye Library</a></li>
+                        <li><a href="location.html">Location</a></li>
+                        <li><a href="hipaa.html">HIPAA</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-contact">
+                    <h3>Contact Us</h3>
+                    <p>Located Inside Tacoma COSTCO<br>2219 South 37th St<br>Tacoma, WA 98409</p>
+                    <p>Phone: <a href="tel:2536716012">(253) 671-6012</a></p>
+                    <p>Fax: (253) 671-6013</p>
+                    <p>Email: <a href="mailto:tacomafamilyeyecare@gmail.com">tacomafamilyeyecare@gmail.com</a></p>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; <span id="currentYear"></span> Tacoma Family Eyecare. All rights reserved.</p>
+                <div class="footer-bottom-links">
+                    <a href="hipaa.html">Privacy Policy</a>
+                    <a href="hipaa.html">HIPAA Notice</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
