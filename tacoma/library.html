@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eye Library | Tacoma Family Eyecare</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://unpkg.com/lucide@latest"></script>
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="container">
+            <div class="header-content">
+                <a href="index.html" class="logo">
+                    <img src="logo.png" alt="Tacoma Family Eyecare Logo" class="logo-image">
+                </a>
+                
+                <!-- Desktop Navigation -->
+                <nav class="nav-desktop">
+                    <a href="index.html" class="nav-btn">Home</a>
+                    <a href="team.html" class="nav-btn">Our Team</a>
+                    <a href="services.html" class="nav-btn">Services</a>
+                    <a href="insurance.html" class="nav-btn">Insurance</a>
+                    <a href="library.html" class="nav-btn active">Eye Library</a>
+                    <a href="location.html" class="nav-btn">Location</a>
+                    <a href="hipaa.html" class="nav-btn">HIPAA</a>
+                </nav>
+
+                <a href="https://app.eyecloudpro.com/site/!appt_req?sid=132BEE91E879F8642B87DB218A0C1D0ACF10607C7658161B7D7EE18BBBB81291" target="_blank" class="btn-primary desktop-only">Book Appointment</a>
+
+                <!-- Mobile Menu Button -->
+                <button class="mobile-menu-btn" onclick="toggleMobileMenu()">
+                    <i data-lucide="menu" class="menu-icon"></i>
+                    <i data-lucide="x" class="close-icon" style="display: none;"></i>
+                </button>
+            </div>
+
+            <!-- Mobile Navigation -->
+            <nav class="nav-mobile" id="mobileNav">
+                <a href="index.html" class="nav-btn-mobile">Home</a>
+                <a href="team.html" class="nav-btn-mobile">Our Team</a>
+                <a href="services.html" class="nav-btn-mobile">Services</a>
+                <a href="insurance.html" class="nav-btn-mobile">Insurance</a>
+                <a href="library.html" class="nav-btn-mobile active">Eye Library</a>
+                <a href="location.html" class="nav-btn-mobile">Location</a>
+                <a href="hipaa.html" class="nav-btn-mobile">HIPAA</a>
+                <a href="https://app.eyecloudpro.com/site/!appt_req?sid=132BEE91E879F8642B87DB218A0C1D0ACF10607C7658161B7D7EE18BBBB81291" target="_blank" class="btn-primary mobile-cta">Book Appointment</a>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main class="main-content">
+        <div class="container">
+            <h1 class="page-title">Patient Education Library</h1>
+            <p class="page-intro">Evidence-based information to help you understand and maintain optimal eye health throughout your life.</p>
+            
+            <div class="content-box">
+                <h2>Comprehensive Eye Health Resources</h2>
+                <p>For detailed information about eye health, vision conditions, eyewear, and eye care, we recommend visiting our trusted partner resource:</p>
+                
+                <a href="https://www.allaboutvision.com" target="_blank" rel="noopener noreferrer" class="external-link-card">
+                    <div class="external-link-content">
+                        <div class="external-link-icon">
+                            <i data-lucide="external-link"></i>
+                        </div>
+                        <div class="external-link-text">
+                            <h3>All About Vision</h3>
+                            <p>Comprehensive eye health information and resources</p>
+                            <span class="external-url">allaboutvision.com →</span>
+                        </div>
+                    </div>
+                </a>
+            </div>
+
+            <div class="library-grid">
+                <div class="library-card">
+                    <i data-lucide="book-open"></i>
+                    <h3>Eye Health Fundamentals</h3>
+                    <p>Learn about proper eye hygiene, nutrition for eye health, and protective measures to preserve your vision.</p>
+                    <a href="https://www.allaboutvision.com/eye-health/" target="_blank" rel="noopener noreferrer" class="link-btn">
+                        Visit All About Vision <i data-lucide="external-link"></i>
+                    </a>
+                </div>
+                <div class="library-card">
+                    <i data-lucide="eye"></i>
+                    <h3>Common Eye Conditions</h3>
+                    <p>Understand symptoms, risk factors, and treatment options for conditions like glaucoma, cataracts, and macular degeneration.</p>
+                    <a href="https://www.allaboutvision.com/conditions/" target="_blank" rel="noopener noreferrer" class="link-btn">
+                        Visit All About Vision <i data-lucide="external-link"></i>
+                    </a>
+                </div>
+                <div class="library-card">
+                    <i data-lucide="users"></i>
+                    <h3>Children's Vision Development</h3>
+                    <p>Important information about pediatric eye exams, visual milestones, and supporting healthy vision in growing children.</p>
+                    <a href="https://www.allaboutvision.com/parents/" target="_blank" rel="noopener noreferrer" class="link-btn">
+                        Visit All About Vision <i data-lucide="external-link"></i>
+                    </a>
+                </div>
+                <div class="library-card">
+                    <i data-lucide="clipboard"></i>
+                    <h3>Contact Lens Care</h3>
+                    <p>Best practices for contact lens wear, cleaning procedures, and recognizing signs of complications.</p>
+                    <a href="https://www.allaboutvision.com/contacts/" target="_blank" rel="noopener noreferrer" class="link-btn">
+                        Visit All About Vision <i data-lucide="external-link"></i>
+                    </a>
+                </div>
+            </div>
+
+            <div class="info-box">
+                <p>The information provided is for educational purposes and does not replace professional medical advice. Always consult with your eye care provider for personalized recommendations.</p>
+            </div>
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-about">
+                    <div class="footer-logo">
+                        <img src="logo.png" alt="Tacoma Family Eyecare Logo" style="height: 40px; width: auto;">
+                    </div>
+                    <p>Providing comprehensive, professional eye care services for the Tacoma community and surrounding areas. Your vision is our priority.</p>
+                    <a href="https://app.eyecloudpro.com/site/!appt_req?sid=132BEE91E879F8642B87DB218A0C1D0ACF10607C7658161B7D7EE18BBBB81291" target="_blank" class="btn-secondary">Schedule Appointment</a>
+                </div>
+                
+                <div class="footer-links">
+                    <h3>Quick Links</h3>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="team.html">Our Team</a></li>
+                        <li><a href="services.html">Services</a></li>
+                        <li><a href="insurance.html">Insurance</a></li>
+                        <li><a href="library.html">Eye Library</a></li>
+                        <li><a href="location.html">Location</a></li>
+                        <li><a href="hipaa.html">HIPAA</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-contact">
+                    <h3>Contact Us</h3>
+                    <p>Located Inside Tacoma COSTCO<br>2219 South 37th St<br>Tacoma, WA 98409</p>
+                    <p>Phone: <a href="tel:2536716012">(253) 671-6012</a></p>
+                    <p>Fax: (253) 671-6013</p>
+                    <p>Email: <a href="mailto:tacomafamilyeyecare@gmail.com">tacomafamilyeyecare@gmail.com</a></p>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; <span id="currentYear"></span> Tacoma Family Eyecare. All rights reserved.</p>
+                <div class="footer-bottom-links">
+                    <a href="hipaa.html">Privacy Policy</a>
+                    <a href="hipaa.html">HIPAA Notice</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

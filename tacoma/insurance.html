@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Insurance | Tacoma Family Eyecare</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://unpkg.com/lucide@latest"></script>
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="container">
+            <div class="header-content">
+                <a href="index.html" class="logo">
+                    <img src="logo.png" alt="Tacoma Family Eyecare Logo" class="logo-image">
+                </a>
+                
+                <!-- Desktop Navigation -->
+                <nav class="nav-desktop">
+                    <a href="index.html" class="nav-btn">Home</a>
+                    <a href="team.html" class="nav-btn">Our Team</a>
+                    <a href="services.html" class="nav-btn">Services</a>
+                    <a href="insurance.html" class="nav-btn active">Insurance</a>
+                    <a href="library.html" class="nav-btn">Eye Library</a>
+                    <a href="location.html" class="nav-btn">Location</a>
+                    <a href="hipaa.html" class="nav-btn">HIPAA</a>
+                </nav>
+
+                <a href="https://app.eyecloudpro.com/site/!appt_req?sid=132BEE91E879F8642B87DB218A0C1D0ACF10607C7658161B7D7EE18BBBB81291" target="_blank" class="btn-primary desktop-only">Book Appointment</a>
+
+                <!-- Mobile Menu Button -->
+                <button class="mobile-menu-btn" onclick="toggleMobileMenu()">
+                    <i data-lucide="menu" class="menu-icon"></i>
+                    <i data-lucide="x" class="close-icon" style="display: none;"></i>
+                </button>
+            </div>
+
+            <!-- Mobile Navigation -->
+            <nav class="nav-mobile" id="mobileNav">
+                <a href="index.html" class="nav-btn-mobile">Home</a>
+                <a href="team.html" class="nav-btn-mobile">Our Team</a>
+                <a href="services.html" class="nav-btn-mobile">Services</a>
+                <a href="insurance.html" class="nav-btn-mobile active">Insurance</a>
+                <a href="library.html" class="nav-btn-mobile">Eye Library</a>
+                <a href="location.html" class="nav-btn-mobile">Location</a>
+                <a href="hipaa.html" class="nav-btn-mobile">HIPAA</a>
+                <a href="https://app.eyecloudpro.com/site/!appt_req?sid=132BEE91E879F8642B87DB218A0C1D0ACF10607C7658161B7D7EE18BBBB81291" target="_blank" class="btn-primary mobile-cta">Book Appointment</a>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main class="main-content">
+        <div class="container">
+            <h1 class="page-title">Insurance Information</h1>
+            <p class="page-intro">Tacoma Family Eyecare makes every effort to keep our eye care services easily accessible and affordable for our patients and their families.</p>
+
+            <!-- Costco Membership Plan -->
+            <div class="content-box insurance-highlight">
+                <div class="insurance-icon-header">
+                    <i data-lucide="star"></i>
+                    <h2>Costco Members Special Pricing</h2>
+                </div>
+                <p>Tacoma Family Eyecare is pleased to offer our <strong>Costco Members</strong> a combined routine vision service at a low warehouse price.</p>
+                <p class="insurance-note">Invoiced as S0620 & S0621, these combined routine services are not billable to or reimbursed by Medicare, Medicaid, or Insurance.</p>
+            </div>
+
+            <!-- Payment Options -->
+            <div class="content-box">
+                <h2>Payment Options</h2>
+                <div class="payment-methods">
+                    <div class="payment-method">
+                        <i data-lucide="banknote"></i>
+                        <span>Cash</span>
+                    </div>
+                    <div class="payment-method">
+                        <i data-lucide="file-text"></i>
+                        <span>Check</span>
+                    </div>
+                    <div class="payment-method">
+                        <i data-lucide="credit-card"></i>
+                        <span>Debit Card</span>
+                    </div>
+                    <div class="payment-method">
+                        <i data-lucide="credit-card"></i>
+                        <span>Credit Card</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Important Notice -->
+            <div class="info-box insurance-notice">
+                <div class="notice-icon">
+                    <i data-lucide="alert-circle"></i>
+                </div>
+                <div>
+                    <h3>Important: Insurance Information Required</h3>
+                    <p><strong>We require your insurance name and policy number at least 48 business hours IN ADVANCE of your visit.</strong></p>
+                </div>
+            </div>
+
+            <!-- Contracted Insurance Providers -->
+            <div class="content-box">
+                <h2>Contracted Insurance Providers</h2>
+                <p class="section-intro">For warehouse members who wish to use their pre-paid vision care or medical insurance benefits, we are contracted with and are preferred providers for the following payers. We are happy to bill on your behalf in strict accordance with CPT coding and billing guidelines.</p>
+                
+                <div class="insurance-list">
+                    <div class="insurance-item">
+                        <i data-lucide="check-circle"></i>
+                        <span>HMA</span>
+                    </div>
+                    <div class="insurance-item">
+                        <i data-lucide="check-circle"></i>
+                        <span>Regence Group Administrators</span>
+                    </div>
+                    <div class="insurance-item">
+                        <i data-lucide="check-circle"></i>
+                        <span>Blue Cross / Blue Shield (some plans)</span>
+                    </div>
+                    <div class="insurance-item">
+                        <i data-lucide="check-circle"></i>
+                        <span>Premera Blue Cross / Lifewise</span>
+                    </div>
+                    <div class="insurance-item">
+                        <i data-lucide="check-circle"></i>
+                        <span>Aetna (non-HMO plans only)</span>
+                    </div>
+                    <div class="insurance-item">
+                        <i data-lucide="check-circle"></i>
+                        <span>United Health Spectera (formerly Optum Health Vision)</span>
+                    </div>
+                    <div class="insurance-item">
+                        <i data-lucide="check-circle"></i>
+                        <span>United Healthcare (non-Medicare based plans only)</span>
+                    </div>
+                    <div class="insurance-item">
+                        <i data-lucide="check-circle"></i>
+                        <span>Northwest Benefit Network</span>
+                    </div>
+                    <div class="insurance-item">
+                        <i data-lucide="check-circle"></i>
+                        <span>First Choice Network (if not sourced to VSP, Eyemed, Davis, or Metlife)</span>
+                    </div>
+                    <div class="insurance-item">
+                        <i data-lucide="check-circle"></i>
+                        <span>Eyemed Vision (ONLY for Costco employees and families)</span>
+                    </div>
+                    <div class="insurance-item">
+                        <i data-lucide="check-circle"></i>
+                        <span>Willow Health</span>
+                    </div>
+                    <div class="insurance-item">
+                        <i data-lucide="check-circle"></i>
+                        <span>Puyallup Tribal Health Authority (referral required)</span>
+                    </div>
+                    <div class="insurance-item">
+                        <i data-lucide="check-circle"></i>
+                        <span>VA Referred (referral required)</span>
+                    </div>
+                    <div class="insurance-item">
+                        <i data-lucide="check-circle"></i>
+                        <span>Tricare (referral from PCP required)</span>
+                    </div>
+                    <div class="insurance-item">
+                        <i data-lucide="check-circle"></i>
+                        <span>Kaiser Permanente (non-HMO plans only)</span>
+                    </div>
+                    <div class="insurance-item">
+                        <i data-lucide="check-circle"></i>
+                        <span>USFHP (US Family Health Plan)</span>
+                    </div>
+                </div>
+
+                <div class="insurance-details">
+                    <h3>First Choice Network Plans Include:</h3>
+                    <p>First Choice Multicare, EBMS, Allegiance, TPSC, Zenith American Solutions, Moda Health</p>
+                    
+                    <h3>Tricare Coverage Details:</h3>
+                    <ul>
+                        <li><strong>Medical:</strong> Active-Duty Family, Retired, Reserve, and Select plans (PCP referral required)</li>
+                        <li><strong>Vision:</strong> Active-Duty Family Plans only</li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- Open Access Providers -->
+            <div class="content-box">
+                <h2>Open-Access Providers</h2>
+                <p class="section-intro">We are open-access providers for the following insurance plans. While we are not contracted directly with these insurers, we can still provide you with services and help you utilize your benefits.</p>
+                
+                <div class="open-access-explanation">
+                    <h3>How Open-Access Works:</h3>
+                    <ol class="numbered-list">
+                        <li>You pay for services directly to our office at the time of visit</li>
+                        <li>We provide you with an itemized receipt</li>
+                        <li>You self-submit the receipt to your insurance for reimbursement</li>
+                        <li>Your insurance reimburses you directly in 3-4 weeks according to your plan rules</li>
+                    </ol>
+                </div>
+
+                <div class="insurance-list">
+                    <div class="insurance-item open-access">
+                        <i data-lucide="circle-dot"></i>
+                        <span>VSP (including Uniform Medical Plan, Regence Blue Shield, City of Tacoma, Starbucks, Alaska Airlines, Amazon)</span>
+                    </div>
+                    <div class="insurance-item open-access">
+                        <i data-lucide="circle-dot"></i>
+                        <span>Davis Vision</span>
+                    </div>
+                    <div class="insurance-item open-access">
+                        <i data-lucide="circle-dot"></i>
+                        <span>Eyemed</span>
+                    </div>
+                    <div class="insurance-item open-access">
+                        <i data-lucide="circle-dot"></i>
+                        <span>Metlife</span>
+                    </div>
+                    <div class="insurance-item open-access">
+                        <i data-lucide="circle-dot"></i>
+                        <span>Molina</span>
+                    </div>
+                    <div class="insurance-item open-access">
+                        <i data-lucide="circle-dot"></i>
+                        <span>BlueView</span>
+                    </div>
+                    <div class="insurance-item open-access">
+                        <i data-lucide="circle-dot"></i>
+                        <span>Superior Vision</span>
+                    </div>
+                    <div class="insurance-item open-access">
+                        <i data-lucide="circle-dot"></i>
+                        <span>Cigna</span>
+                    </div>
+                    <div class="insurance-item open-access">
+                        <i data-lucide="circle-dot"></i>
+                        <span>Humana</span>
+                    </div>
+                </div>
+
+                <div class="info-highlight">
+                    <h3>VSP Patients:</h3>
+                    <p>Along with your itemized receipt, we will provide you with the VSP reimbursement form and an addressed envelope to VSP for easy self-submission.</p>
+                    
+                    <h3>Costco Optical Partnership:</h3>
+                    <p>Costco Optical is contracted with VSP, Davis Vision, and some Eyemed plans, so they will bill your glasses/contact lens purchases directly for you.</p>
+                </div>
+            </div>
+
+            <!-- Contact for Questions -->
+            <div class="cta-box">
+                <h2>Questions About Your Insurance?</h2>
+                <p>Our knowledgeable staff is here to help you understand your insurance benefits and coverage options.</p>
+                <div style="display: flex; gap: 1rem; flex-wrap: wrap; justify-content: center;">
+                    <a href="tel:2536716012" class="btn-primary">Call (253) 671-6012</a>
+                    <a href="location.html" class="btn-secondary">Visit Our Office</a>
+                </div>
+                <p style="margin-top: 1.5rem; font-size: 0.875rem; color: var(--slate-400);">*CPT is a registered trademark of the American Medical Association.</p>
+            </div>
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-about">
+                    <div class="footer-logo">
+                        <img src="logo.png" alt="Tacoma Family Eyecare Logo" style="height: 40px; width: auto;">
+                    </div>
+                    <p>Providing comprehensive, professional eye care services for the Tacoma community and surrounding areas. Your vision is our priority.</p>
+                    <a href="https://app.eyecloudpro.com/site/!appt_req?sid=132BEE91E879F8642B87DB218A0C1D0ACF10607C7658161B7D7EE18BBBB81291" target="_blank" class="btn-secondary">Schedule Appointment</a>
+                </div>
+                
+                <div class="footer-links">
+                    <h3>Quick Links</h3>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="team.html">Our Team</a></li>
+                        <li><a href="services.html">Services</a></li>
+                        <li><a href="insurance.html">Insurance</a></li>
+                        <li><a href="library.html">Eye Library</a></li>
+                        <li><a href="location.html">Location</a></li>
+                        <li><a href="hipaa.html">HIPAA</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-contact">
+                    <h3>Contact Us</h3>
+                    <p>Located Inside Tacoma COSTCO<br>2219 South 37th St<br>Tacoma, WA 98409</p>
+                    <p>Phone: <a href="tel:2536716012">(253) 671-6012</a></p>
+                    <p>Fax: (253) 671-6013</p>
+                    <p>Email: <a href="mailto:tacomafamilyeyecare@gmail.com">tacomafamilyeyecare@gmail.com</a></p>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; <span id="currentYear"></span> Tacoma Family Eyecare. All rights reserved.</p>
+                <div class="footer-bottom-links">
+                    <a href="hipaa.html">Privacy Policy</a>
+                    <a href="hipaa.html">HIPAA Notice</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
